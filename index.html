@@ -1,0 +1,112 @@
+<!-- <img src="https://source.unsplash.com/1690x900/?burgers" alt=""> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <title>Villa Omis</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <nav class="navigation">
+        <div class="logo">Logo</div>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="main-card" id="parallax">
+        <h1 class="title">Enjoy the <span class="accent"> Luxury</span></h1>
+        <h2 class="subtitle">In Croatia</h2>
+      </div>
+      <div class="hero-graphics"><div class="img"></div></div>
+    </section>
+    <section class="content">
+      <h3 class="info-title hidden">Welcome to the</h3>
+      <div class="content-container">
+        <div class="feature">
+          <img class="feature-img hidden" src="/villa-background.jpg" alt="" />
+          <div class="feature-text">
+            <h3 class="feature-title">extravagance</h3>
+            <p class="feature-description">
+              ...that comes from the most exquisite materials,<br />
+              amazing views and premium location, blended by the flawless
+              craftsmanship.
+            </p>
+          </div>
+        </div>
+        <div class="description">
+          <h3>Why Choose Us</h3>
+          <p class="desc hidden1">
+            "Villa" is designed to capture what has been lost with most high-end
+            European beach destinations; a sense of peace and calm with all the
+            amenities you would come to expect at one of the most
+            elegant properties.
+            
+            <p> This uncrowded and peaceful piece of paradise
+            offers world-class conditions for sightseeing , amazing diving, an
+            immaculate golf course, and a wide variety of other fun family
+            activities.</p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="villa-graphics">
+      <div class="why-section">
+        <h3>Discover</h3>
+        <p>
+          ...the most lavish and authentic experiences <br />
+          visiting the City of Omis, Croatia,
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="coming-soon">
+        <h3>Available May 2024</h3>
+        <div class="countdown">
+          <div class="day-item time-segment">
+            <h3 class="day">Time</h3>
+            <h2 class="text-days">Day</h2>
+          </div>
+          <div class="hour-item time-segment">
+            <h3 class="hour">Time</h3>
+            <h2 class="text-hours">Hours</h2>
+          </div>
+          <div class="minute-item time-segment">
+            <h3 class="minute">Time</h3>
+            <h2 class="text-minutes">Minutes</h2>
+          </div>
+          <div class="second-item time-segment">
+            <h3 class="second">Time</h3>
+            <h2 class="text-seconds">Seconds</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="send-email.php" method="POST" class="form">
+          <h3>Get in touch</h3>
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Email@example.com" required>
+          <textarea name="" id="message" placeholder="How can we help you?" rows="6"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+
+    <script defer src="app.js"></script>
+  </body>
+
+
+
+</html>
