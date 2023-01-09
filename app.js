@@ -1,4 +1,5 @@
 
+
 //  Elements for the navbar
 const navbar = document.querySelector('.navigation');
 const navigationItems = document.querySelectorAll('.nav-link')
@@ -65,7 +66,7 @@ console.log(parallax.style);
 //   // console.log(offset)
 // });
 
-//animation for content on page
+//animation for content on page with interesction observer
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) =>{
     if(entry.isIntersecting){

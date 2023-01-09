@@ -42,7 +42,7 @@ body {
       rgba(0, 0, 0, 0.607),
       rgba(186, 124, 0, 0.135)
     ),
-    url(/villa-background.jpg);
+    url(Photos/villa-background.jpg);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -218,7 +218,7 @@ body {
       rgba(0, 0, 0, 0.441),
       rgba(255, 170, 0, 0.146)
     ),
-    url(/villa2.jpg);
+    url(/Photos/villa2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
